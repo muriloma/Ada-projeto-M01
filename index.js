@@ -6,13 +6,13 @@ const listaDeTarefas = {
 function criarTarefa(listaDeTarefas, tarefa) {
     let id = ++listaDeTarefas.id;
 
-    const objTarefa = {
+    const tarefaCriada = {
         id,
         tarefa
     };
 
-    listaDeTarefas.lista.push(objTarefa)
-    return objTarefa;
+    listaDeTarefas.lista.push(tarefaCriada)
+    return tarefaCriada;
 }
 
 function listarTarefas(listaDeTarefas) {
